@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,800');
 
 *{
-    overflow: hidden;
-    font-size: 30px;
-    color: #FFFFFF;
-    background: rgb(219, 207, 207);
+  overflow: hidden;
+  font-size: 30px;
+  color: #FFFFFF;
+  background: rgb(242, 238, 238);
 }
 
 body {
-	background: rgb(219, 207, 207);
+	background: rgb(242, 238, 238);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -18,28 +18,74 @@ body {
 	margin: -20px 0 50px;
 }
 
-.img-gerador{
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 35px;
-}
-
 .img-gerador2{
-    height: 20vh;
-    width: 100vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 20vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 img{
-    width: 500px;
-    height: 500px;
+  width: 500px;
+  height: 450px;
 }
 
+.img-gerador{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.container {
+  height: 80px;
+  width: 100%;
+  background-color: #ee725c;
+  color: #FFFFFF;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+a{
+  text-decoration: none;
+  font-size: 12px;
+  background-color: #ee725c;
+}
+
+ul{
+  margin-top: 15px;
+  margin-right: 10px;
+  background-color: #ee725c;
+}
+
+li{
+  display: inline;
+  margin-left: 100px;
+  margin-top: 0px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #ee725c;
+}
+
+#drop_zone {
+  border-radius: 20px;
+  border: 1px solid #ee725c;
+  background-color: #ee725c;
+  text-align: center; 
+  width:  400px;
+  height: 40px;
+  margin-top: 3px;
+  transition: transform 80ms ease-in;
+  text-decoration: none;
+  font-size: 0.5rem;
+  color: #FFFFFF;
+  align-items: center;
+}
 
 button {
 	border-radius: 20px;
@@ -52,36 +98,18 @@ button {
 	letter-spacing: 1px;
 	/* text-transform: uppercase; */
 	transition: transform 80ms ease-in;
-    text-decoration: none;
+  text-decoration: none;
 }
 
-.container {
-    height: 80px;
-    width: 100%;
-    background-color: #ee725c;
-    color: #FFFFFF;
-    text-transform: capitalize;
-    text-decoration: none;
-  }
+p {
+  font-size: 0.5rem;
+  background-color: #ee725c;
+  color: #FFFFFF;
+}
 
-  a{
-    text-decoration: none;
-    font-size: 12px;
-    background-color: #ee725c;
-  }
+.obter_audio{
+  width:  10px;
+  height: 4px;
+  margin-top: 1px;
+}
 
-  ul{
-    margin-top: 15px;
-    margin-right: 10px;
-    background-color: #ee725c;
-  }
-
-  li{
-    display: inline;
-    margin-left: 100px;
-    margin-top: 0px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    background-color: #ee725c;
-  }

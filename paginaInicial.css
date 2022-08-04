@@ -6,7 +6,7 @@
 }
 
 body {
-	background: rgb(206, 181, 181);
+	background: rgb(242, 238, 238);
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -44,10 +44,10 @@ a {
 	margin: 15px 0;
 }
 
- {
+ button {
 	border-radius: 20px;
 	border: 1px solid #FF4B2B;
-	backgroundbutton-color: #FF4B2B;
+	background-color: #FF4B2B;
 	color: #FFFFFF;
 	font-size: 12px;
 	font-weight: bold;

@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="gerarImagem.css">
+    <script src="drop.js"></script>
 
     <title>Geração de Rosto Aleatório</title>
 </head>
@@ -12,16 +13,24 @@
 
     <div class="container">
         <ul>
+            <li><a href="PaginaInicial.html">Login</a></li>
             <li><a href="GercaoDeImagem.html">Geração de Imagens</a></li>
             <li><a href="GercaoDeImagem.html">Gravação do Depoimento</a></li>
             <li><a href="GercaoDeImagem.html">Informações sobre o Processo</a></li>
             <li><a href="GercaoDeImagem.html">Dados da Aplicaçõa</a></li>
-            <li><a href="GercaoDeImagem.html">Termos e Segurança</a></li>
         </ul>
     </div>
 
     <div class="img-gerador">
-        <img src="https://thispersondoesnotexist.com/image" alt="gerador">
+        <!-- <img src="https://thispersondoesnotexist.com/image" alt="gerador"> -->
+        <img src="fundo.jpg" alt="Imagem Gerada Por GAN">
+
+        <div id="drop_zone" ondrop="dropHandler(event);" ondragover="dragOverHandler(event);">
+            <p id="paragrafo">Carregue o seu audio/testemunho aqui ...</p>
+        </div>
+        <div class="obter_audio"></div>
+            <button>Transformar</button>
+        </div>
     </div>
 
 </body>
